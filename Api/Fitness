@@ -1,0 +1,34 @@
+const get=(req,res)=>{
+    res.send([
+        {
+            
+            "id": 31,
+            "title": "Pushups",
+            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/701/images/slideshow2/classic-483x350-1-1492801201.jpg?resize=480:*",
+            "category": "Fitness",
+            "description": "Pushups are an exercise in which a person, keeping a prone position, with the hands palms down under the shoulders, the balls of the feet on the ground, and the back straight, pushes the body up and lets it down by an alternate straightening and bending of the arms."
+        },
+        {
+            "id": 32,
+            "title": "Squats",
+            "img": "https://global-uploads.webflow.com/5fe33d036237252135e3e74d/625ffc55d7d41a2d3f41a24b_Benefits%20of%20Squats%20by%20cult.fit.jpg",
+            "category": "Fitness",
+            "description": " an exercise in which a standing person lowers to a position in which the torso is erect and the knees are deeply bent and then rises to an upright position. Note: A squat can be done while holding weights, with a barbell on the upper back, or without weights."
+        },
+        {
+             "id": 33,
+            "title": " Lunges ",
+            "img": "https://experiencelife.lifetime.life/wp-content/uploads/2021/03/The_Lunge-1280x720.jpg",
+            "category": "Fitness",
+            "description": "A lunge is a lower body exercise that involves stepping and bending your front and back leg. To perform a lunge stand straight up facing forward with your spine and pelvis in a neutral position."
+        },
+        {
+            "id": 34,
+            "title": "Plank",
+            "img": "https://blog-images.pharmeasy.in/2021/01/06152556/3.jpg",
+            "category": "Fitness",
+            "description": "The plank is a bodyweight exercise which involves holding the trunk part of your body in a straight line off the ground. The static exercise engages multiple muscle groups at the same time which makes it extremely effective at strengthening your core, whilst also working the shoulders, arms and glutes."
+        }
+    ])
+}
+module.exports.apiController=get
